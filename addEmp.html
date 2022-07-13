@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="adminnavigation.css">
+<link rel="stylesheet" type="text/css" href="addEmp.css">
+
+
+</head>
+<body>
+	
+		<div class="header">
+			<ul class="nav">
+				<li><a href="HR_Page.html">Home</a></li>
+				<li><a href="#" style="color:#1c8adb;font-weight:bold;">Add Employee</a></li>
+				<li><a href="viewEmp.php">View Employee</a></li>
+				<li><a href="deleteEmployee.php">Remove Employee</a></li>
+				<li><a href="logout.php">Logout</a></li>
+				
+			</ul>
+		</div>
+		<img src="loginphoto.jpg" width="100%">
+		
+		<div class="register">
+			<form name="add" action="add_Employee.php" method="post">
+            	<div class="re">
+				<h2>Employee Name<input style="margin-left: 20px;"type="text" name="ename" required></h2>
+				<h2> Email Id  <input style="margin-left: 85px;"type="text" name="email" required> </h2>
+				<h2>Mobile No <input style="margin-left: 72px;"type="text" name="mob"required></h2>
+				<h2>Total Salary <input style="margin-left: 59px;"type="text" name="sal"required></h2>
+				<h2>Employee Id <input style="margin-left: 55px;"type="text" name="id"required></h2>			
+				<h2>Password <input style="margin-left: 79px;"type="password" name="pass"required></h2>
+				
+				
+
+				<br>
+				
+				<input type="submit" name="register" value="Register">
+			</div>
+		</form>	
+		</div>
+	<script type="text/javascript" src="subject.js"></script> 
+</body>
+</html>

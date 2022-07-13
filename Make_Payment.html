@@ -1,0 +1,50 @@
+<?
+session_start();
+
+?>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="adminnavigation.css">
+<link rel="stylesheet" type="text/css" href="addEmp.css">
+
+
+</head>
+<body>
+	
+		<div class="header">
+			<ul class="nav">
+				<li><a href="Accountant_Page
+				.html">Home</a></li>
+				<li><a href="#" style="color:#1c8adb;font-weight:bold;">Make Payment</a></li>
+				<li><a href="fund.php">Fund</a></li>
+				
+				<li><a href="logout.php">Logout</a></li>
+				
+			</ul>
+		</div>
+		<img src="loginphoto.jpg" width="100%">
+		
+		<div class="register">
+			<form name="add" action="makePayment_salary.php" method="post">
+            	<div class="re">
+	
+				<h2>Date of Payment<input style="margin-left: 20px;"type="date" name="date" required></h2>
+				<h2> Basic Salary<input style="margin-left: 85px;"type="text" name="bs" required> </h2>
+				<h2>PA<input style="margin-left:170px"type="text" name="pa"required></h2>
+				<h2>PF <input style="margin-left: 170px;"type="text" name="pf"required></h2>
+				<h2>Gratuity <input style="margin-left: 120px;"type="text" name="grat"required></h2>			
+				<h2>Performance Pay <input style="margin-left: 40px;"type="text" name="pp"required></h2>
+				<h2>Total Salary <input style="margin-left: 90px;"type="text" name="ts" value=""required></h2>
+				<h2><input type="hidden" name="status" value="Payed"></h2>
+				
+
+				<br>
+				
+				<input type="submit" name="register" value="Make Payment">
+			</div>
+		</form>	
+		</div>
+	<script type="text/javascript" src="subject.js"></script> 
+</body>
+</html>
